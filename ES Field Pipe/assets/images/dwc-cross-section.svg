@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <rect width="100%" height="100%" fill="#0f172a" rx="16"/>
+  <defs>
+    <linearGradient id="metalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+  </defs>
+
+  <text x="300" y="40" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18" font-weight="700" text-anchor="middle">DWC DUAL-WALL CORRUGATION PROFILE</text>
+  <text x="300" y="65" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" text-anchor="middle">Structural Wall HDPE Pipe - IS 16098 (Part 2)</text>
+
+  <!-- Pipe Wall Profile Cutaway -->
+  <g transform="translate(50, 100)">
+    <!-- Corrugated Outer Wall -->
+    <path d="M 0 60 C 25 10, 45 10, 70 60 C 95 10, 115 10, 140 60 C 165 10, 185 10, 210 60 C 235 10, 255 10, 280 60 C 305 10, 325 10, 350 60 C 375 10, 395 10, 420 60 C 445 10, 465 10, 490 60 L 490 80 C 465 30, 445 30, 420 80 C 395 30, 375 30, 350 80 C 325 30, 305 30, 280 80 C 255 30, 235 30, 210 80 C 185 30, 165 30, 140 80 C 115 30, 95 30, 70 80 C 45 30, 25 30, 0 80 Z" fill="#f97316"/>
+
+    <!-- Air Gap Chambers -->
+    <circle cx="70" cy="50" r="14" fill="#1e293b"/>
+    <circle cx="140" cy="50" r="14" fill="#1e293b"/>
+    <circle cx="210" cy="50" r="14" fill="#1e293b"/>
+    <circle cx="280" cy="50" r="14" fill="#1e293b"/>
+    <circle cx="350" cy="50" r="14" fill="#1e293b"/>
+    <circle cx="420" cy="50" r="14" fill="#1e293b"/>
+
+    <!-- Smooth Inner Wall -->
+    <rect x="0" y="80" width="490" height="20" rx="4" fill="#38bdf8"/>
+
+    <!-- Water Flow Line -->
+    <rect x="0" y="105" width="490" height="80" fill="#0284c7" opacity="0.25"/>
+    <line x1="20" y1="145" x2="470" y2="145" stroke="#38bdf8" stroke-width="3" stroke-dasharray="10 6"/>
+    <text x="245" y="150" fill="#e0f2fe" font-family="system-ui, sans-serif" font-size="14" font-weight="600" text-anchor="middle">Laminar Gravity Fluid Flow (Manning's n = 0.009)</text>
+
+    <!-- Labels & Arrows -->
+    <!-- Outer wall pointer -->
+    <line x1="70" y1="20" x2="70" y2="-10" stroke="#f97316" stroke-width="2"/>
+    <text x="70" y="-20" fill="#fb923c" font-family="system-ui, sans-serif" font-size="12" font-weight="600" text-anchor="middle">Corrugated Outer Wall (High SN8 Stiffness)</text>
+
+    <!-- Inner wall pointer -->
+    <line x1="380" y1="90" x2="380" y2="210" stroke="#38bdf8" stroke-width="2"/>
+    <text x="380" y="230" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="12" font-weight="600" text-anchor="middle">Mirror-Smooth Inner Wall (Zero Silt)</text>
+  </g>
+
+  <!-- Footer Specs -->
+  <g transform="translate(50, 350)">
+    <text x="0" y="0" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">✔ 100% Virgin PE-100 HDPE</text>
+    <text x="180" y="0" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">✔ Non-Conductive & Rodent Proof</text>
+    <text x="370" y="0" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">✔ 50-100 Year Design Life</text>
+  </g>
+</svg>

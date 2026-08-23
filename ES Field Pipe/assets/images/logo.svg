@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 60" width="280" height="60">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ea580c"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+  </defs>
+  <!-- Pipe Icon -->
+  <g transform="translate(10, 10)">
+    <rect x="0" y="5" width="38" height="30" rx="4" fill="#0f172a"/>
+    <rect x="8" y="0" width="8" height="40" rx="3" fill="url(#logoGrad)"/>
+    <rect x="22" y="0" width="8" height="40" rx="3" fill="url(#logoGrad)"/>
+    <circle cx="19" cy="20" r="5" fill="#38bdf8"/>
+  </g>
+  <!-- Brand Text -->
+  <text x="58" y="32" font-family="system-ui, sans-serif" font-size="22" font-weight="900" fill="currentColor" letter-spacing="-0.5">ESFIELD</text>
+  <text x="150" y="32" font-family="system-ui, sans-serif" font-size="22" font-weight="800" fill="#ea580c" letter-spacing="-0.5">PIPE</text>
+  <text x="58" y="47" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#64748b" letter-spacing="1.5">DWC HDPE SOLUTIONS</text>
+</svg>
